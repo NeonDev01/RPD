@@ -24,7 +24,7 @@ jobs:
 
       run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
            
-    - run: Invoke-WebRequest https://raw.githubusercontent.com/NeonDev01/RPD/main/Files/NGROK-CHECK.bat?token=GHSAT0AAAAAACBN2NRUXZWTQQAVYSOIC6PEZB2FPIA -OutFile NGROK-CHECK.bat
+    - run: Invoke-WebRequest https://github.com/NeonDev01/RPD/blob/84f1a53a03b59a04c37144fd42f29dfd3444e62b/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
 
     - name: Extract
 
