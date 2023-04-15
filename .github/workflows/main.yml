@@ -1,4 +1,4 @@
-name: CI
+7name: CI
 
 
 on: [push, workflow_dispatch]
@@ -24,7 +24,7 @@ jobs:
 
       run: Invoke-WebRequest https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
            
-    - run: Invoke-WebRequest https://github.com/NeonDev01/RPD/blob/84f1a53a03b59a04c37144fd42f29dfd3444e62b/Files/NGROK-CHECK1.bat -OutFile NGROK-CHECK1.bat
+    - run: Invoke-WebRequest https://github.com/NeonDev01/RPD/blob/84f1a53a03b59a04c37144fd42f29dfd3444e62b/Files/NGROK-CHECK.bat -OutFile NGROK-CHECK1.bat
 
     - name: Extract
 
