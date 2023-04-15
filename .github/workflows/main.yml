@@ -57,10 +57,10 @@ jobs:
 
     - run: Set-LocalUser -Name "Admin" -Password (ConvertTo-SecureString -AsPlainText "P@ssw0rd!" -Force)
 
+    - run: cmd /c NGROK-CHECK.bat
 
     - name: Create Tunnel
 
-      run: cmd /c NGROK-CHECK.bat
       run: .\ngrok\ngrok.exe tcp 3389
 
       
